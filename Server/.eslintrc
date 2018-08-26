@@ -1,0 +1,21 @@
+{
+	"env": {
+		"node": true
+	},
+	"extends": [
+		"eslint:recommended",
+		"google"
+	],
+	"parserOptions": {
+		"ecmaVersion": 9,
+		"sourceType": "module"
+	},
+	"rules": {
+		"linebreak-style": [
+			"error",
+			"windows"
+		],
+		"no-tabs": "off",
+		"comma-dangle": "off"
+	}
+}
